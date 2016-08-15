@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*contact*/
+body{
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  background: url(../image/large.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.form-horizontal{
+	background: rgb(255,255,255);
+	padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  border-top: 5px solid rgb(112,199,215);
+  margin-top: 100px;
+}
+.p1{
+  margin-top: 35px;
+}
+.p{
+  float: right;
+  margin-top: 40px;
+  margin-right: 50px;
+}
