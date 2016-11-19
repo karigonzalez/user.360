@@ -1,212 +1,243 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-h1,h2,h3,h4,h5,h6{
-	font-weight: bolder;
-}
-/*navbar*/
-.navbar-header img{
-	width: 50%;
-	margin-top: 10px;
-}
-.navbar-custom {
-  margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  text-transform: uppercase;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
-}
-.navbar-custom .navbar-toggle {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  font-size: 12px;
-}
-.navbar-custom .navbar-toggle:focus,
-.navbar-custom .navbar-toggle:active {
-  outline: none;
-}
-.navbar-custom .navbar-brand {
-  font-weight: 700;
-}
-.navbar-custom .navbar-brand:focus {
-  outline: none;
-}
-.navbar-custom a {
-  color: white;
-  font-weight: bolder;
-}
-.navbar-custom .nav li a {
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background 0.3s ease-in-out;
-}
-.navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
-  outline: none;
-  background-color: transparent;
-}
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
-  outline: none;
-  background-color: transparent;
-}
-.navbar-custom .nav li.active {
-  outline: none;
-}
-.navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-.navbar-custom .nav li.active a:hover {
-  color: white;
-}
-/*header*/
-.fondo{
-  display: table;
-  width: 100%;
-  height: auto;
-  padding: 100px 0;
-  text-align: center;
-  color: white;
-  background: url(../image/large.jpg) no-repeat bottom center scroll;
-  background-color: black;
-  background-size: cover;
-  -o-background-size: cover;
-}
-.fondo .intro-body {
-  display: table-cell;
-  vertical-align: middle;
-}
-.fondo .intro-body .brand-heading {
-  font-size: 40px;
-}
-.fondo .intro-body .intro-text {
-  font-weight: bolder;
-  margin-top: 30px;
-  font-size: 18px;
-}
 
-/*SECTION PRUEBA*/
-.prueba{
-	background: rgb(116,163,219);
-	padding-bottom: 10px;
-	color: rgb(255,255,255);
+.b-parraf {
+	font-size: 1.3em;
 }
-.prueba .btn-default{
+.d-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.text-white{
+	color: #FFFFFF;
+}
+.text-celeste{
+	color: #94C4FF;
+}
+.m-top{
+	margin-top: 1em;
+}
+.espacio{
+	padding-bottom: 5%;
+}
+.n-padding-r-l{
+	padding-right: 0;
+	padding-left: 0;
+}
+.bold{
+	font-weight: bold;
+}
+.pd-l{
+	padding-left: 3%;
+}
+/* -----HEADER--------*/
+#bg-imagenheader {
+	background: url(../image/large.jpg) no-repeat;
+	background-size: 100%;
+	background-size: cover;
+
+}
+.hero {
+	background-color: rgba(93,101,107,0.7);
+}
+.logo img{
+	width: 70%;
+}
+header .navbar{
 	background-color: transparent;
-  color: rgb(255,255,255);
-  border-radius: 50px;
-	border-color:rgb(255,255,255);
-  padding-top: 5px;
-  padding-bottom: 5px;
-	padding-left: 50px;
-	padding-right: 50px;
-	margin-top: 10px;
+	border: none;
+	padding: 0.3%;
 }
-.prueba .btn-default:hover{
-	background-color: rgb(255,255,255);
-	border-color:rgb(255,255,255);
-  font-weight: bolder;
-	color: rgb(78,126,184);
+.navbar #bs-example-navbar-collapse-1 .list{
+	color: #FFFFFF;
+	font-size: 1.3em;
 }
-/*SECTION servcios*/
+.navbar #bs-example-navbar-collapse-1 .list:hover{
+	background-color: rgba(61,122,209,0.8);
+}
+.title {
+	color: white;
+	font-size: 4em;
+	font-weight: 500;
+	padding: 10% 10% 2% 10%;
+}
+.test-free {
+	background-color: rgba(61,122,209,0.8);
+	color: white;
+	padding: 3% 0;
+}
+.hero-content{
+	padding: 10% 0%;
+}
+.button{
+	background: transparent;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-size: 2em;
+	padding: 2% 3%;
+	margin: 5% 0%;
+}
+.button:hover{
+	background-color: #2A3541;
+}
+/*--------SERVICIOS----------*/
+.servicios{
+	padding: 5% 0%;
+}
+.icon-serv{
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	border: none;
+	box-shadow: -2px 2px 6px #DBDBDB;
+	padding: 15%;
+}
 .icon{
-	color: rgb(78,126,184);
-	width: 130px;
-	height: 130px;
-	font-size: 60px;
-  margin-top: 20%;
-  margin-left:25%;
-  margin-bottom:10%;
-  box-shadow: 0px 0px 10px #2F4F4F;
-  -moz-transition-duration:0.3s;
-  border-radius: 100%;
-  cursor: pointer;
+	font-size: 3em;
+	font-weight: 600;
 }
-.icon:hover{
-  background: #F0FFF0;  
-  box-shadow: 2px 3px 8px #2F4F4F;
-}
-.icon i{
-	position: relative;
-	top: 25px;
-}
-.servicios h3{
-	color: rgb(104,180,255);
-	margin-top: 50px;
-}
-.servicios h4{
-	color: rgb(78,126,184);
-	margin-bottom: 20px;
-}
-.servicios p{
-	font-size: 18px;
-}
-.hr{
-  position: relative;
-  top: 70px;
-  left: 30%;
-}
-/*SECTION main*/
-.main{
-  margin-top: 50px;
-}
-.main .logo{
-  width: 50%;
-}
-.main h4{
-    color: rgb(104,180,255);
-}
-.flecha .flecha{
-  width: 20%;
-  margin-top: 15px;
-  margin-left:30%;
-}
-iframe{
-  width: 100%;
-  margin-top: 10px;
-  justify-content: center;
-}
-.col-xs-hidden .icons{
-  color:transparent;
-  display: inline-block;
-}
-.section h3,h5{
-  color: rgb(104,180,255);
-}
-/*SECTION prueba1*/
-.prueba1{
-  background: rgb(116,163,219);
-  padding-bottom: 10px;
-  color: rgb(255,255,255);
-}
-.prueba1 .btn-default{
-  background-color: transparent;
-  color: rgb(255,255,255);
-  border-radius: 50px;
-  border-color:rgb(255,255,255);
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-top: 10px;
-}
-.prueba1 .btn-default:hover{
-  background-color: rgb(255,255,255);
-  border-color:rgb(255,255,255);
-  font-weight: bolder;
-  color: rgb(78,126,184);
-}
-/*footer*/
-.footer{
-  background: rgb(42,53,65);
-  color: rgb(255,255,255);
-}
-.icons1 {
-  font-size: 30px;
-  display: inline-block;
-  float: right;
-  margin-left: 5px;
+.tipos-servicios{
+	padding: 10% 15%;
 }
 
+/*--------SEPARADOR----------*/
+
+#linea .hr-line {
+	border: 1px solid #F2F3F3;
+	width: 100%;
+	margin: 0 !important;
+	position: absolute;
+}
+.arrow {
+	position: relative;
+	top: -50px;
+}
+
+/*--------EJEMPLOS----------*/
+.funcion{
+	position: relative;
+}
+.logo-ejemplos{
+	width: 90%;
+}
+.ejemplo{
+	font-size: 2.5em;
+}
+.ejemplos-content{
+	padding-left: 10%;
+}
+.no-margin-t-b{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.imgfuncion{
+	background: url(../image/sec-2.jpg) no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	min-height: 400px;
+}
+.opacar{
+	background-color: rgba(93,101,107,0.7);
+	min-height: inherit;
+}
+
+.no-margin{
+	padding-left: 0;
+	padding-right: 0;
+}
+.icon-center{
+	background-color: #50BDEA;
+	font-size: 1.5em;
+	color: #FFFFFF;
+	border-radius: 50%;
+	padding: 1em;
+	position:absolute;
+	margin: 2%;
+}
+.z-index1{
+	position: absolute;
+	left: 45%;
+	top: 5%;
+	z-index: 1;
+}
+.z-index2{
+	position: absolute;
+	left: 45%;
+	top: 30%;
+	z-index: 2;
+}
+.z-index3{
+	position: absolute;
+	left: 45%;
+	top: 55%;
+	z-index: 2;
+}
+/*--------USABILIDAD----------*/
+.logo-razones{
+	width: 90%;
+}
+.razones{
+	font-size: 2.5em;
+}
+.razones-content{
+	padding-left: 10%;
+}
+.banner{
+	width: 100%;
+}
+/*--------FOOTER----------*/
+.text-footer{
+	background-color: #2A3541;
+	padding: 2% 0%;
+}
+.redescontact{
+	text-align: right;
+}
+.redes{
+	font-size: 2.5em;
+	margin: 2%;
+	display: inline-block;
+}
+.redes:hover{
+	color: #D9534F;
+	transition: all 0.8s ease;
+}
+/*--------LETRAS RESPON0IVE----------*/
+
+@media (max-width: 1024px){
+	body{
+	font-size: 16px;
+	}
+	.noneicon{
+		display: none;
+	}
+}
+@media (max-width: 982px){
+	body{
+	font-size: 14px;
+	}
+}
+@media (max-width: 768px){
+	body{
+	font-size: 14px;
+	}
+}
+
+@media (max-width: 640px){
+	body{
+	font-size: 12px;
+	}
+	.title {
+	font-size: 2.5em;
+	}
+	.none{
+		display: none;
+	}
+	footer{
+		text-align: center;
+	}
+	.redescontact{
+		text-align: center;
+	}
+	.middle{
+		text-align: center;
+	}
+}

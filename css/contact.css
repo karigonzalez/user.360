@@ -1,0 +1,51 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+body{
+	background: url(../image/large.jpg) no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.w-80{
+	width: 80%;
+
+}
+.text-red{
+	color: red;
+}
+.text-little{
+	font-size: 0.90em;
+}
+.p-right{
+	padding-right: 20%;
+}
+/*-------FORMULARIO----*/
+.formulario{
+	background-color: #FFFFFF;
+	width: 65%;
+	border: 1px gray solid;
+	border-top: 8px #74A3DB solid;
+	padding: 0% 2%;
+}
+.form-horizontal .w-80 .form-group label{
+	text-align: left;
+}
+
+.report{
+	float: right;
+}
+
+.btemail{
+	color: #FFFFFF;
+	background-color: #74A3DB !important;
+	padding: 1% 2%;
+	margin: 0% 0% 2% 10%;
+}
+.benviar{
+	margin: 0% 0% 0% 15%;
+	width: 40%;
+}
